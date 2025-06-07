@@ -1,0 +1,201 @@
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 7rem;
+}
+
+.bebas-neue-regular3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 4rem;
+}
+
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.lato-bold2{
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.footer-custom {
+
+  background-color: rgb(0, 67, 120);
+  color: white;
+}
+
+
+.blog-header-logo {
+  font-size: 2.5rem;
+}
+
+.nav-scroller .nav .nav-link {
+
+  padding-left: 8rem;
+  padding-right: 8rem;
+
+}
+
+.mr-custom {
+  margin-right: 5rem;
+
+}
+
+.mt-custom {
+  margin-top: 8rem;
+
+}
+
+
+#carouselExampleInterval .carousel-inner .carousel-item:first-child .carousel-caption {
+
+  color: #1e4170;
+  bottom: 6rem;
+  right: 50rem;
+}
+
+#carouselExampleInterval .carousel-inner .carousel-item .carousel-caption {
+
+  bottom: 10rem;
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+
+}
+
+.botonCarrusel {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1877f2;
+  /* Azul tipo Facebook */
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botonCarrusel:hover {
+  background-color: #155ab6;
+  /* Un azul más oscuro al pasar el mouse */
+}
+
+@media (max-width: 800px) {
+
+
+  #carouselExampleInterval .carousel-inner .carousel-item .carousel-caption {
+    bottom: 1.5rem;
+    left: 5%;
+    right: 5%;
+    width: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  #carouselExampleInterval .carousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+  }
+
+  #carouselExampleInterval .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 0.75rem;
+  }
+
+
+  #carouselExampleInterval .carousel-inner .carousel-item:first-child .carousel-caption {
+
+    bottom: 1rem;
+
+    right: 14rem;
+
+  }
+
+}
+
+.bebas-neue-regular2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2rem;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.card.position-relative:hover img.card-img {
+  transform: scale(1.05);
+  filter: brightness(0.7);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.img-customR {
+
+  width: 100px;
+  object-fit: cover;
+}
